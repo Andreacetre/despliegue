@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.cuadro {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: transform 0.5s ease; /* agrega una transicion para un cambio suave*/
+}
+
+.cuadro:hover {
+    transform: rotate 50px, 100px;
+}
